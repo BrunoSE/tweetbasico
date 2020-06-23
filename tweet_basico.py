@@ -29,9 +29,11 @@ ACCESS_SECRET = ""
 
 # Acá abajo el código que hace todo
 
-if hora < 0 or hora > 24 or minuto < 0 or minuto > 59 or (segundo < 0 or
-                                                        segundo > 59):
+if len(tuit) > 280 or (hora < 0 or hora > 24 or
+                       minuto < 0 or minuto > 59 or
+                       segundo < 0 or segundo > 59):
     exit()
+
 if hora == 24:
     hora = 0
 
