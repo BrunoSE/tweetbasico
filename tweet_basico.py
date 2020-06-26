@@ -15,7 +15,7 @@ import datetime
 from time import sleep
 
 # Aquí los 4 parámetros a cambiar por el usuario
-tuit = '*Tweet de Prueba*'
+tuit = 'Tweet de Prueba que puede decir cualquier cosa!'
 
 hora = 0
 minuto = 15
